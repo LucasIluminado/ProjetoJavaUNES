@@ -1,4 +1,3 @@
-import java.security.cert.CertPathChecker;
 import java.util.Scanner;
 
 public class Principal {
@@ -65,30 +64,26 @@ public class Principal {
 			switch(op)
 			{
 			case 1:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 2:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 3:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 4:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 5:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 6:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
-			}
+			default:
+				System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
+			}break;
 			
 		case 2:
 			med.menuRegiao();
@@ -98,30 +93,26 @@ public class Principal {
 			switch(op) 
 			{
 			case 1:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 2:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 3:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 4:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 5:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
 			case 6:
-				leia.nextLine();
 				System.out.println("\n\n====    Médicos Disponíveis     ====");
 				med.listaMedicos();break;
-			}
+			default:
+				System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
+			}break;
 			
 			case 3:
 				med.menuRegiao();
@@ -131,30 +122,26 @@ public class Principal {
 				switch(op)
 				{
 				case 1:
-					leia.nextLine();
 					System.out.println("\n\n====    Médicos Disponíveis     ====");
 					med.listaMedicos();break;
 				case 2:
-					leia.nextLine();
 					System.out.println("\n\n====    Médicos Disponíveis     ====");
 					med.listaMedicos();break;
 				case 3:
-					leia.nextLine();
 					System.out.println("\n\n====    Médicos Disponíveis     ====");
 					med.listaMedicos();break;
 				case 4:
-					leia.nextLine();
 					System.out.println("\n\n====    Médicos Disponíveis     ====");
 					med.listaMedicos();break;
 				case 5:
-					leia.nextLine();
 					System.out.println("\n\n====    Médicos Disponíveis     ====");
 					med.listaMedicos();break;
 				case 6:
-					leia.nextLine();
 					System.out.println("\n\n====    Médicos Disponíveis     ====");
 					med.listaMedicos();break;
-				}
+				default:
+					System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
+				}break;
 				
 				case 4:
 					med.menuRegiao();
@@ -164,36 +151,36 @@ public class Principal {
 					switch(op)
 					{
 					case 1:
-						leia.nextLine();
 						System.out.println("\n\n====    Médicos Disponíveis     ====");
 						med.listaMedicos();break;
 					case 2:
-						leia.nextLine();
 						System.out.println("\n\n====    Médicos Disponíveis     ====");
 						med.listaMedicos();break;
 					case 3:
-						leia.nextLine();
 						System.out.println("\n\n====    Médicos Disponíveis     ====");
 						med.listaMedicos();break;
 					case 4:
-						leia.nextLine();
 						System.out.println("\n\n====    Médicos Disponíveis     ====");
 						med.listaMedicos();break;
 					case 5:
-						leia.nextLine();
 						System.out.println("\n\n====    Médicos Disponíveis     ====");
 						med.listaMedicos();break;
 					case 6:
-						leia.nextLine();
 						System.out.println("\n\n====    Médicos Disponíveis     ====");
 						med.listaMedicos();break;
-					}
-		 	
+						default:
+							System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
+							
+					}break;
+		 	default:
+		 		System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
 			}
 	  
        }
 
 }
+
+
 	
 
 	

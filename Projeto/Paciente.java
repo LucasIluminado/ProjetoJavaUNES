@@ -36,8 +36,4 @@ public class Paciente extends Cadastro {
 		this.gmail = gmail;
 	}
 	
-	
-	
-	
-	
 }

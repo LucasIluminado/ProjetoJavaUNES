@@ -191,6 +191,7 @@ public class Medico extends Cadastro{
         {
             System.out.println("\nDra. Luiza Andrade \nCardiologista \nRegião Metropolitana \nContato: 7292-9273 \nCRM: 82832/SP");
         }
+		
 	}
 		
 }
