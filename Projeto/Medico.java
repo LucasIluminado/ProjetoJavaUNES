@@ -193,5 +193,38 @@ public class Medico extends Cadastro{
         }
 		
 	}
+	
+	public void switchRegiao(int op)
+	{
+		switch(op)
+		{
+		case 1:
+			info();
+			listaMedicos();
+			break;
+		case 2:
+			info();
+			listaMedicos();
+			break;
+		case 3:
+			info();
+			listaMedicos();
+			break;
+		case 4:
+			info();
+			listaMedicos();
+			break;
+		case 5:
+			info();
+			listaMedicos();
+			break;
+		case 6:
+			info();
+			listaMedicos();
+			break;
+		default:
+			System.out.println("Escolha uma opção válida!!!");
+		}
+	}
 		
 }
