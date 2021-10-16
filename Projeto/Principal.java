@@ -60,123 +60,29 @@ public class Principal {
 			med.menuRegiao();
 			op = leia.nextInt();
 			med.setRegiao(op);
-			
-			switch(op)
-			{
-			case 1:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 2:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 3:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 4:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 5:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 6:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			default:
-				System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
-			}break;
-			
+			med.switchRegiao(op);
+			break;
 		case 2:
 			med.menuRegiao();
 			op = leia.nextInt();
 			med.setRegiao(op);
-			
-			switch(op) 
-			{
-			case 1:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 2:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 3:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 4:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 5:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			case 6:
-				System.out.println("\n\n====    Médicos Disponíveis     ====");
-				med.listaMedicos();break;
-			default:
-				System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
-			}break;
-			
-			case 3:
-				med.menuRegiao();
-				op = leia.nextInt();
-				med.setRegiao(op);
-				
-				switch(op)
-				{
-				case 1:
-					System.out.println("\n\n====    Médicos Disponíveis     ====");
-					med.listaMedicos();break;
-				case 2:
-					System.out.println("\n\n====    Médicos Disponíveis     ====");
-					med.listaMedicos();break;
-				case 3:
-					System.out.println("\n\n====    Médicos Disponíveis     ====");
-					med.listaMedicos();break;
-				case 4:
-					System.out.println("\n\n====    Médicos Disponíveis     ====");
-					med.listaMedicos();break;
-				case 5:
-					System.out.println("\n\n====    Médicos Disponíveis     ====");
-					med.listaMedicos();break;
-				case 6:
-					System.out.println("\n\n====    Médicos Disponíveis     ====");
-					med.listaMedicos();break;
-				default:
-					System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
-				}break;
-				
-				case 4:
-					med.menuRegiao();
-					op = leia.nextInt();
-					med.setRegiao(op);
-					
-					switch(op)
-					{
-					case 1:
-						System.out.println("\n\n====    Médicos Disponíveis     ====");
-						med.listaMedicos();break;
-					case 2:
-						System.out.println("\n\n====    Médicos Disponíveis     ====");
-						med.listaMedicos();break;
-					case 3:
-						System.out.println("\n\n====    Médicos Disponíveis     ====");
-						med.listaMedicos();break;
-					case 4:
-						System.out.println("\n\n====    Médicos Disponíveis     ====");
-						med.listaMedicos();break;
-					case 5:
-						System.out.println("\n\n====    Médicos Disponíveis     ====");
-						med.listaMedicos();break;
-					case 6:
-						System.out.println("\n\n====    Médicos Disponíveis     ====");
-						med.listaMedicos();break;
-						default:
-							System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
-							
-					}break;
-		 	default:
-		 		System.err.print("\n   POR FAVOR DIGITE UMA OPÇÃO DA LISTA!!!\n");
-			}
+			med.switchRegiao(op);
+			break;
+		case 3:
+			med.menuRegiao();
+			op = leia.nextInt();
+			med.setRegiao(op);
+			med.switchRegiao(op);
+			break;
+		case 4:
+			med.menuRegiao();
+			op = leia.nextInt();
+			med.setRegiao(op);
+			med.switchRegiao(op);
+			break;
+		}
 	  
-       }
+   }
 
 }
 
