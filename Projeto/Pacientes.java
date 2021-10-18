@@ -1,15 +1,16 @@
-public class Paciente extends Cadastro {
+public class Pacientes extends Cadastros {
 	
 	private String cpf;
-	private int dataNascimento; 
+	private String dataNascimento; 
 	private String gmail;
 	
-	public Paciente (String nome, String sobrenome, int regiao, String telefone, String cpf, 
-			int dataNascimento, String gmail)
+	public Pacientes (String nome, String sobrenome, int regiao, String telefone, String cpf, 
+			String dataNascimento, String gmail)
 	{
 		super (nome, sobrenome, regiao, telefone);
 		this.cpf = cpf;
 		this.dataNascimento = dataNascimento;
+		this.gmail = gmail;
 	}
 
 	public String getCpf() {
@@ -20,11 +21,11 @@ public class Paciente extends Cadastro {
 		this.cpf = cpf;
 	}
 
-	public int getDataNascimento() {
+	public String getDataNascimento() {
 		return dataNascimento;
 	}
 
-	public void setDataNascimento(int dataNascimento) {
+	public void setDataNascimento(String dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
 
@@ -35,5 +36,7 @@ public class Paciente extends Cadastro {
 	public void setGmail(String gmail) {
 		this.gmail = gmail;
 	}
+	
+	
 	
 }

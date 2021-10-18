@@ -1,16 +1,22 @@
-public class Cadastro {
+public class Cadastros {
 	
 	private String nome;
 	private String sobrenome;
 	private int regiao;
 	private String telefone;
 	
-	public Cadastro (String nome, String sobrenome, int regiao, String telefone)
+	public Cadastros (String nome, String sobrenome, int regiao, String telefone)
 	{
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.regiao = regiao;
 		this.telefone = telefone;
+	}
+	
+	public void menu()
+	{
+		System.out.println("\nDeseja consultar novamente: ");
+		System.out.println("\n1- SIM \t2- NÃO");
 	}
 	
 	public void menuEspecialidade()
@@ -24,15 +30,20 @@ public class Cadastro {
 	public void menuRegiao()
 	{
 		System.out.println("\n====        MENU DE REGIÕES       ====");
-		System.out.println("\nEscolha a região onde mora: ");
 		System.out.println("\n1- Centro");
 		System.out.println("\n2- Zona Norte");
 		System.out.println("\n3- Zona Sul");
 		System.out.println("\n4- Zona Leste");
 		System.out.println("\n5- Zona Oeste");
 		System.out.println("\n6- Região Metropolitana");
+		System.out.println("\nEscolha a região onde mora: ");
 	}
-
+	
+	public void info()
+	{
+		System.out.println("\n\n====    Médicos Disponíveis     ====");
+	}
+	
 	public String getNome() {
 		return nome;
 	}
